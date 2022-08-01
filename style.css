@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.myul{
+    display: flex;
+}
+
+.myul li{
+    list-style: none;
+    margin: 5px 15px;
+    font-size: 2.4rem;
+    font-style: italic;
+    font-weight: bold;
+}
+header{
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.radi{
+    margin-left: 4.5rem;
+}
+#mybtn{
+    padding: 0.8rem;
+    background-color: darkslategrey;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0.5rem 0rem;
+}
+input{
+    padding: .4rem;
+    margin: .3rem 0rem;
+    font-size: .9rem;
+}
+#mytable{
+    display: flex;
+    justify-content: center;
+}
+table thead{
+    /* margin: .6rem 0rem; */
+}
+table thead th{
+    margin: 7rem;
+    /* border: 2px solid red; */
+    padding: 0px 15px;
+    font-size: 22px;
+}
+table tbody td{
+    padding: 0px 15px;
+    font-size: 22px;
+    /* margin: 2rem 0rem; */
+    /* border: 2px dotted gray; */
+}

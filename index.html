@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Library Systems</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="myul">
+                <li>Library Systems</li>
+                <li>Home</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <h1>Welcome to Library Systems</h1>
+        <hr>
+        <div class="form">
+            <form id="libraryform">
+                <h2>Name : <input type="text" name="myName" id="myName" placeholder="Enter book name"></h2>
+                <h2>Author : <input type="text" name="myAuthor" id="myAuthor" placeholder="Enter Author"></h2>
+                <h2>Type : </h2>
+                <h2><input class="radi"id="myfiction" type="radio" name='myradio' value="fiction">Ficttion
+                    <br>
+                    <input class="radi" id="mycomputer" type="radio" name='myradio' value="computer programming">Computer Programming
+                    <br>
+                    <input class="radi" id="mycooking" type="radio" name='myradio' value="cooking">Cooking
+
+                </h2>
+                <button type="submit" id="mybtn">Add Book</button>
+
+
+            </form>
+        </div>
+
+    </div>
+    <hr>
+    <div id="mytable">
+
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                     <th scope="col">Author</th> 
+                    <th scope="col">Type</th>
+                </tr>
+            </thead>
+            <tbody id="mybody"> 
+            </tbody>
+        </table>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
